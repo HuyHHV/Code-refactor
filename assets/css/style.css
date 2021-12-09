@@ -146,7 +146,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+    }
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -208,6 +208,8 @@ p {
 }
 
 @media screen and (max-width: 1010px) {
+    /* responsive design for header */
+
      nav, h1{
       float: none;
       text-align: center;
@@ -216,6 +218,17 @@ p {
      }
 
      li,h1 {display: block;}
+     /* responsive design for main */
+     .content {
+         width: 100%;
+     }
+     /* responsive design for aside */
+     .benefits {
+        display: flex; 
+        order: 2;
+        float: none;
+        width: 100%;
+    }
 
-     
+
   }
