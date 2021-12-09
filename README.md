@@ -53,3 +53,9 @@ As the navigation panel was dropped below the heading and the content section be
 
 ![Responsive design](./Assets/images/Mobile.png)
 
+## URLs 
+
+GitHub repository: https://github.com/HuyHHV/Code-refactor
+
+Webpage:https://huyhhv.github.io/Code-refactor
+
