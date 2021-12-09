@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-/* Header */
+/** Header **/
 body {
     background-color: #d9dcd6;
 }
@@ -53,9 +53,9 @@ p {
     font-size: 16px;
 }
 
-/* Class selector */
 
-/** Main  **/
+
+/** introduction photo **/
 .hero {
     height: 800px;
     width: 100%;
@@ -66,6 +66,7 @@ p {
     
 }
 
+/** Main  **/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -207,6 +208,8 @@ p {
     font-size: 20px;
 }
 
+/* responsive design  */
+
 @media screen and (max-width: 1010px) {
     /* responsive design for header */
 
@@ -228,7 +231,7 @@ p {
         order: 2;
         float: none;
         width: 100%;
+        margin-left: 20px;
     }
-
 
   }
